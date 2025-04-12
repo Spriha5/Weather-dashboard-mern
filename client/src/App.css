@@ -1,0 +1,83 @@
+
+
+
+.App {  
+
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 2rem;
+  background-image: url('./assets/back.gif'); 
+  background-size: cover; 
+  background-position: center;  
+  height: 100vh;  
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center; 
+
+
+  background-repeat: no-repeat;
+ 
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+
+
+ 
+  
+  
+}  
+
+
+.search-bar {
+  margin: 20px;
+  
+  
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+   
+  
+ 
+}
+.wi{
+  
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.weather-card {
+  display: inline-block;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #80c0ee;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+ 
+}
+
+.weather-card img {
+  width: 250px;
+  height: 100px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 20px;
+}
