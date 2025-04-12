@@ -14,7 +14,9 @@ cd weather-dashboard-mern
 2.Set up the backend
 
 cd server
+
 npm install
+
 node server.js
 
 
@@ -22,7 +24,9 @@ node server.js
 
 
 cd client
+
 npm install
+
 npm run dev
 
 
